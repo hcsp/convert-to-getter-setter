@@ -2,11 +2,11 @@ package com.github.hcsp.encapsulation;
 
 public class Cat {
     /** 猫咪的名字 */
-    String name;
+    private String name;
     /** 猫咪的年龄 */
-    int age;
+    private int age;
     /** 猫咪是否萌，true为萌，false为不萌 */
-    boolean cute;
+    private boolean cute;
 
     public String getName() {
         return name;
