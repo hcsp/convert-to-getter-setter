@@ -5,6 +5,15 @@ public class Cat {
     public String name;
     /** 猫咪的年龄 */
     public int age;
+
+    public boolean isCute() {
+        return cute;
+    }
+
+    public void setCute(boolean cute) {
+        this.cute = cute;
+    }
+
     /** 猫咪是否萌，true为萌，false为不萌 */
     public boolean cute;
 }
