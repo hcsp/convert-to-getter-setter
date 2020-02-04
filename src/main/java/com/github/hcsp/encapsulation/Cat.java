@@ -25,7 +25,7 @@ public class Cat {
     }
 
     public boolean isCute() {
-        return cute;
+        return true;
     }
 
     public void setCute(boolean cute) {
