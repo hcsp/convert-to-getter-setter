@@ -6,7 +6,7 @@ public class Cat {
     /** 猫咪的年龄 */
     private int age;
     /** 猫咪是否萌，true为萌，false为不萌 */
-    public boolean cute;
+    private  boolean cute;
 
     public String getName() {
         return name;
