@@ -11,9 +11,16 @@ public class Cat {
     public int getAge() {
         return age;
     }
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public boolean isCute() {
         return cute;
+    }
+
+    public void setCute(boolean cute) {
+        this.cute = cute;
     }
 
     public String getName() {
@@ -23,11 +30,8 @@ public class Cat {
         this.name = name;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
 
-    public void setCute(boolean cute) {
-        this.cute = cute;
-    }
+
+
+
 }
