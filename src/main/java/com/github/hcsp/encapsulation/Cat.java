@@ -13,7 +13,7 @@ public class Cat {
     public int getAge(){
         return age;
     }
-    public boolean getCute(){
+    public boolean isCute(){
         return cute;
     }
     public void setName(String name){
