@@ -1,6 +1,30 @@
 package com.github.hcsp.encapsulation;
 
 public class Cat {
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public boolean isCute() {
+        return cute;
+    }
+
+    public void setCute(boolean cute) {
+        this.cute = cute;
+    }
+
     /** 猫咪的名字 */
     public String name;
     /** 猫咪的年龄 */
