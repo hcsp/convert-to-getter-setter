@@ -1,4 +1,4 @@
- # Java面向对象初步练习：将成员改写为getter/setter
+# Java面向对象初步练习：将成员改写为getter/setter
 
 请在[`Cat`类](https://github.com/hcsp/convert-to-getter-setter/blob/master/src/main/java/com/github/hcsp/encapsulation/Cat.java)中，将原先的`public`成员改写成`getter`/`setter`方法
 
